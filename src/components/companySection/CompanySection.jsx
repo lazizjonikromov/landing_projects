@@ -72,7 +72,7 @@ const CompanySection = () => {
         </div>
       </Wrapper>
 
-      <img src="src/assets/companies-bg.png" alt="" className="company__bg" />
+      {/* <img src="src/assets/companies-bg.png" alt="" className="company__bg" /> */}
     </section>
   );
 };
