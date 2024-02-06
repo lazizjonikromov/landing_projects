@@ -1,3 +1,4 @@
+import BlogSection from "./components/blogSection/BlogSection"
 import CompanySection from "./components/companySection/CompanySection"
 import CtaSection from "./components/ctaSection/CtaSection"
 import FeatureSection from "./components/featureSection/FeatureSection"
@@ -16,6 +17,7 @@ function App() {
       <PaymentSection />
       <CtaSection />
       <PlansSection />
+      <BlogSection />
     </>
   )
 }
