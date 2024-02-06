@@ -4,6 +4,7 @@ import FeatureSection from "./components/featureSection/FeatureSection"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import PaymentSection from "./components/paymentSection/PaymentSection"
+import PlansSection from "./components/plansSection.jsx/PlansSection"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FeatureSection />
       <PaymentSection />
       <CtaSection />
+      <PlansSection />
     </>
   )
 }
