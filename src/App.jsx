@@ -1,4 +1,5 @@
 import CompanySection from "./components/companySection/CompanySection"
+import CtaSection from "./components/ctaSection/CtaSection"
 import FeatureSection from "./components/featureSection/FeatureSection"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
@@ -12,6 +13,7 @@ function App() {
       <CompanySection />
       <FeatureSection />
       <PaymentSection />
+      <CtaSection />
     </>
   )
 }
