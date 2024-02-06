@@ -2,6 +2,7 @@ import BlogSection from "./components/blogSection/BlogSection"
 import CompanySection from "./components/companySection/CompanySection"
 import CtaSection from "./components/ctaSection/CtaSection"
 import FeatureSection from "./components/featureSection/FeatureSection"
+import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import PaymentSection from "./components/paymentSection/PaymentSection"
@@ -18,6 +19,7 @@ function App() {
       <CtaSection />
       <PlansSection />
       <BlogSection />
+      <Footer />
     </>
   )
 }
