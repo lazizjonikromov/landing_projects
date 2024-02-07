@@ -64,9 +64,9 @@
     margin: auto;
 
     @include respond(phone) {
-        width: 60%;
-        margin: auto;
-    };
+      width: 60%;
+      margin: auto;
+    }
   }
 
   .img-2 {
@@ -75,6 +75,21 @@
     right: 0;
     bottom: -6%;
     z-index: -1;
+    animation: anim2 2s alternate-reverse infinite ease-in-out;
+
+    @include respond(tab-land) {
+      animation: none;
+    }
+  }
+
+  @keyframes anim2 {
+    0% {
+      transform: translate3d(40px, 0px, 0px);
+    }
+
+    100% {
+      transform: translate3d(70px, 0px, 0px);
+    }
   }
 
   &__partners {
@@ -89,14 +104,25 @@
     place-content: center;
     text-align: center;
     box-shadow: 0 0 40px 5px rgba(132, 132, 132, 0.2);
+    animation: anim1 2s alternate-reverse infinite ease-in-out;
 
     @include respond(tab-port) {
-        top: -10%;
-        right: 10%;
-    };
+      top: -10%;
+      right: 10%;
+    }
 
     @include respond(phone) {
       display: none;
+    }
+  }
+
+  @keyframes anim1 {
+    0% {
+      transform: translate3d(-40px, 40px, -40px);
+    }
+
+    100% {
+      transform: translate3d(-20px, 0px, -20px);
     }
   }
 
@@ -109,6 +135,7 @@
     bottom: -8%;
     left: 10%;
     box-shadow: 0 0 40px 5px rgba(132, 132, 132, 0.2);
+    animation: anim1 2s alternate-reverse infinite ease-in-out;
 
     @include respond(phone) {
       display: none;
