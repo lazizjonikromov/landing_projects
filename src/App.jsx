@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify"
 import BlogSection from "./components/blogSection/BlogSection"
 import CompanySection from "./components/companySection/CompanySection"
 import CtaSection from "./components/ctaSection/CtaSection"
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <ToastContainer />
       <Hero />
       <CompanySection />
       <FeatureSection />
