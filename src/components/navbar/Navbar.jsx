@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.scss";
 import Wrapper from "../wrapper/Wrapper";
 import { FaBars } from "react-icons/fa";
+import logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar">
       <Wrapper className="navbar__container">
         <a href="#" className="navbar__logo" onClick={() => setShowNav(false)}>
-          <img src="/src/assets/logo.svg" alt="" />
+          <img src={logo} alt="" />
         </a>
 
         <ul className={`navbar__links ${showNav ? "show-nav" : ""}`}>

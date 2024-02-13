@@ -1,6 +1,10 @@
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import "./footer.scss";
+import footPlay from "../../assets/footer-playstore.png";
+import footApp from "../../assets/footer-appstore.png";
+import footLogo from "../../assets/footer-logo.svg";
+
 
 const Footer = () => {
   return (
@@ -15,12 +19,12 @@ const Footer = () => {
         </div>
 
         <div className="footer__stores">
-          <img src="/src/assets/footer-playstore.png" alt="" />
-          <img src="/src/assets/footer-appstore.png" alt="" />
+          <img src={footPlay} alt="" />
+          <img src={footApp} alt="" />
         </div>
 
         <div className="footer__logo">
-          <img src="/src/assets/footer-logo.svg" alt="" />
+          <img src={footLogo} alt="" />
         </div>
 
         <ul className="footer__links">

@@ -1,6 +1,14 @@
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import "./company_section.scss";
+import company1 from '../../assets/company-1.svg';
+import company2 from '../../assets/company-2.svg';
+import company3 from '../../assets/company-3.svg';
+import company4 from '../../assets/company-4.svg';
+import company5 from '../../assets/company-5.svg';
+import companyPhone from '../../assets/companies-phone.png';
+import appstore from '../../assets/appstore.svg';
+import playstore from '../../assets/playstore.svg';
 
 const CompanySection = () => {
   return (
@@ -9,27 +17,27 @@ const CompanySection = () => {
         <h4>Trusted by over 30,000 companies</h4>
 
         <div className="company__companies">
-          <img src="src/assets/company-1.svg" alt="" />
-          <img src="src/assets/company-2.svg" alt="" />
-          <img src="src/assets/company-3.svg" alt="" />
-          <img src="src/assets/company-4.svg" alt="" />
-          <img src="src/assets/company-5.svg" alt="" />
+          <img src={company1} alt="" />
+          <img src={company2} alt="" />
+          <img src={company3} alt="" />
+          <img src={company4} alt="" />
+          <img src={company5} alt="" />
         </div>
 
         <div className="company__container">
           <div className="company__left">
             <img
-              src="src/assets/companies-phone.png"
+              src={companyPhone}
               alt=""
               className="img-1"
             />
 
             <div className="img-2">
-              <img src="src/assets/appstore.svg" alt="" />
+              <img src={appstore} alt="" />
             </div>
 
             <div className="img-3">
-              <img src="src/assets/playstore.svg" alt="" />
+              <img src={playstore} alt="" />
             </div>
           </div>
 
@@ -72,7 +80,7 @@ const CompanySection = () => {
         </div>
       </Wrapper>
 
-      {/* <img src="src/assets/companies-bg.png" alt="" className="company__bg" /> */}
+      {/* <img src="/companies-bg.png" alt="" className="company__bg" /> */}
     </section>
   );
 };

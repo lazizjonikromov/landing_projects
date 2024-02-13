@@ -1,6 +1,9 @@
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import "./payment_section.scss";
+import paymentTick from "../../assets/payment-tick.svg";
+import paymentPhone from "../../assets/payment-phone.png";
+import paymentCard from "../../assets/payment-card.png";
 
 const PaymentSection = () => {
   return (
@@ -16,7 +19,7 @@ const PaymentSection = () => {
           </p>
 
           <div className="payment__text">
-            <img src="/src/assets/payment-tick.svg" alt="" />
+            <img src={paymentTick} alt="" />
             <div>
               <h4>Track your payment method</h4>
               <p>
@@ -27,7 +30,7 @@ const PaymentSection = () => {
           </div>
 
           <div className="payment__text">
-            <img src="/src/assets/payment-tick.svg" alt="" />
+            <img src={paymentTick} alt="" />
             <div>
               <h4>Easy Online Transaction</h4>
               <p>
@@ -39,8 +42,8 @@ const PaymentSection = () => {
         </div>
 
         <div className="payment__right">
-          <img src="/src/assets/payment-phone.png" alt="" className="img-1" />
-          <img src="/src/assets/payment-card.png" alt="" className="img-2" />
+          <img src={paymentPhone} alt="" className="img-1" />
+          <img src={paymentCard} alt="" className="img-2" />
 
           <div className="payment__partners">
             <h4>3500</h4>

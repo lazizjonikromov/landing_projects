@@ -1,6 +1,10 @@
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import "./plans_section.scss";
+import plansTick from "../../assets/plans-tick.svg";
+import plan1 from "../../assets/plan-1.jpg";
+import plan2 from "../../assets/plan-2.jpg";
+import plan3 from "../../assets/plan-3.jpg";
 
 const PlansSection = () => {
   return (
@@ -12,17 +16,17 @@ const PlansSection = () => {
           <div className="plans__card">
             <div className="plans__card-left">
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Free and without documents</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Bonuses for payment by card</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Valid only selected country</p>
               </div>
 
@@ -32,7 +36,7 @@ const PlansSection = () => {
             </div>
 
             <div className="plans__card-right">
-              <img src="/src/assets/plan-1.jpg" alt="" />
+              <img src={plan1} alt="" />
               <div className="plans__card-title">
                 <h6>Standard Card</h6>
                 <span>$ 0.00 USD / Month</span>
@@ -43,27 +47,27 @@ const PlansSection = () => {
           <div className="plans__card">
             <div className="plans__card-left">
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Free and without documents</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Card current to USD</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Bonuses for payment by card</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Valid only selected country</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Unlimited transaction</p>
               </div>
 
@@ -73,7 +77,7 @@ const PlansSection = () => {
             </div>
 
             <div className="plans__card-right">
-              <img src="/src/assets/plan-2.jpg" alt="" />
+              <img src={plan2} alt="" />
               <div className="plans__card-title">
                 <h6>Universal Card</h6>
                 <span>$ 10.00 USD / Month</span>
@@ -84,32 +88,32 @@ const PlansSection = () => {
           <div className="plans__card">
             <div className="plans__card-left">
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Free and without documents</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Card current to USD</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Bonuses for payment by card</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Valid only selected country</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Unlimited transaction</p>
               </div>
 
               <div className="plans__card-feature">
-                <img src="/src/assets/plans-tick.svg" alt="" />
+                <img src={plansTick} alt="" />
                 <p>Accepted cash reward</p>
               </div>
 
@@ -119,7 +123,7 @@ const PlansSection = () => {
             </div>
 
             <div className="plans__card-right">
-              <img src="/src/assets/plan-3.jpg" alt="" />
+              <img src={plan3} alt="" />
               <div className="plans__card-title">
                 <h6>Premium Card</h6>
                 <span>$ 50.00 USD / Month</span>

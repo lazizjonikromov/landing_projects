@@ -1,6 +1,10 @@
 import React from "react";
 import "./hero.scss";
 import Wrapper from "../wrapper/Wrapper";
+import hero1 from "../../assets/hero-1.png";
+import hero2 from "../../assets/hero-2.png";
+import hero3 from "../../assets/hero-3.png";
+
 
 const Hero = () => {
   return (
@@ -23,9 +27,9 @@ const Hero = () => {
         </div>
 
         <div className="hero__right">
-          <img src="/src/assets/hero-1.png" alt="" className="img-1"/>
-          <img src="/src/assets/hero-2.png" alt="" className="img-2"/>
-          <img src="/src/assets/hero-3.png" alt="" className="img-3"/>
+          <img src={hero1} alt="" className="img-1"/>
+          <img src={hero2} alt="" className="img-2"/>
+          <img src={hero3} alt="" className="img-3"/>
         </div>
       </Wrapper>
     </section>

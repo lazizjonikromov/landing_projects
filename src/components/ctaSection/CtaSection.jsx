@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ctaPhone from "../../assets/cta-phone.png";
 import Wrapper from "../wrapper/Wrapper";
 import "./cta_section.scss";
 import axios from "axios";
@@ -40,7 +41,7 @@ const CtaSection = () => {
     <section className="cta">
       <Wrapper className="cta__container">
         <div className="cta__left">
-          <img src="/src/assets/cta-phone.png" alt="" />
+          <img src={ctaPhone} alt="" />
         </div>
 
         <div className="cta__right">
