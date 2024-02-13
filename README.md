@@ -2,7 +2,7 @@
 
 ## Demo
 
-[View Demo](https://medium-blog-clone.netlify.app)
+[View Demo](https://sascard.netlify.app/)
 
 ## Features
 
